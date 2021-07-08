@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/map"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="240dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/allon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:text="전부 켜기"
+                android:textSize="18dp"
+                android:layout_weight="1"
+            />
+            <Button
+                android:id="@+id/alloff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:text="전부 끄기"
+                android:textSize="18dp"
+                android:layout_weight="1"
+               />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+        <ToggleButton
+                android:id="@+id/bnt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/toggle"
+                android:layout_weight="1"
+            android:textOn="1  "
+            android:textOff="1  "
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ToggleButton
+            android:id="@+id/bnt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/toggle"
+            android:layout_weight="1"
+                android:textOn="2  "
+                android:textOff="2  "
+            style="?android:attr/borderlessButtonStyle"/>
+
+            <ToggleButton
+                android:id="@+id/bnt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/toggle"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:textOn="lobby_1  "
+                android:textOff="lobby_1  "
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ToggleButton
+                android:id="@+id/bnt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/toggle"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:textOn="lobby_2  "
+                android:textOff="lobby_2  "
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ToggleButton
+                android:id="@+id/bnt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/toggle"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:textOn="Lounge  "
+                android:textOff="Lounge  "
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ToggleButton
+                android:id="@+id/bnt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/toggle"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:textOn="IOT Zone  "
+                android:textOff="IOT Zone  "
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ToggleButton
+                android:id="@+id/bnt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/toggle"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:textOn="3D Zone  "
+                android:textOff="3D Zone  "
+                style="?android:attr/borderlessButtonStyle"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
